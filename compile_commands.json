@@ -1,0 +1,52 @@
+[
+  {
+    "arguments": [
+      "/usr/bin/clang",
+      "-Wall",
+      "-g",
+      "-framework",
+      "CoreVideo",
+      "-framework",
+      "IOKit",
+      "-framework",
+      "Cocoa",
+      "-framework",
+      "GLUT",
+      "-framework",
+      "OpenGL",
+      "-Ilibs/",
+      "-c",
+      "-o",
+      "src/game.o",
+      "src/game.c"
+    ],
+    "directory": "/Users/castlelecs/dev/projects/towerdefence",
+    "file": "/Users/castlelecs/dev/projects/towerdefence/src/game.c",
+    "output": "/Users/castlelecs/dev/projects/towerdefence/src/game.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/clang",
+      "-Wall",
+      "-g",
+      "-framework",
+      "CoreVideo",
+      "-framework",
+      "IOKit",
+      "-framework",
+      "Cocoa",
+      "-framework",
+      "GLUT",
+      "-framework",
+      "OpenGL",
+      "-Ilibs/",
+      "-c",
+      "-o",
+      "src/main.o",
+      "src/main.c"
+    ],
+    "directory": "/Users/castlelecs/dev/projects/towerdefence",
+    "file": "/Users/castlelecs/dev/projects/towerdefence/src/main.c",
+    "output": "/Users/castlelecs/dev/projects/towerdefence/src/main.o"
+  }
+]
